@@ -1,0 +1,16 @@
+#------------SETTINGS FILE TEMPLATE--------------- 
+
+#to run project fill this file and change extension to .py
+
+#-------------------------------------------------
+
+absolute_path__to_input = ''    #path to .mp4 file 
+absolute_path__to_output = ''   #path to .mp4 file
+path_to_data = ''    #path to .xml file with learned data for CascadeClassifier
+
+point_validation_precision =    #positive int value
+point_validation_depth =        #positive int value
+min_size = (, ) #(px, px)
+
+disctance_validation_depth =    #positive int value
+distance_detection_tolerance = 0.2 #recomended 0.01 - 0.2
